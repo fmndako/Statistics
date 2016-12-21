@@ -3,6 +3,7 @@ lo = [2,4,6,8]
 
 
 def file(name):
+    """converts a txt to a list of numbers"""
     words = "C:/python27/" + name+".txt"
     doc= open(words)
     lis =[]
